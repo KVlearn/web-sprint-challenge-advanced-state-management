@@ -58,7 +58,7 @@ onSubmit={handleSubmit}>
    value={smurfDetail.height}
    onChange={handleChanges}
    placeholder="Enter Smurf Height in cm..."/> 
-   <Button>Add to Smurf Village!</Button> 
+   <Button color="info">Add to Smurf Village!</Button> 
 </Form>
 )
 }

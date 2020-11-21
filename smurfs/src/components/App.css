@@ -10,8 +10,9 @@ h1{
   margin:0 auto;
   font-size: 2rem;
   padding-top: 2rem;
-  text-shadow: 2px bisque;
+  text-shadow: 1px 2px #FC766AFF;
  color: white;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #5B84B1FF;
 
 }
@@ -51,10 +52,6 @@ nav a:hover {
   justify-content: space-evenly;
   align-items: center;
   padding: 20px 20px;
-  border-radius: 4px;
-  background-color: rgb(247, 232, 231);
-  border-radius: 2px;
-  box-shadow: 2px snow;
   width:100%;
   max-width: 750px;
   margin:auto;
@@ -63,11 +60,18 @@ nav a:hover {
 }
 
 .smurfCard{
-  padding: 1rem 1rem;
-  background-color: snow;
-  color:black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 8px 4px;
+  color:#FC766AFF;
+  font-size: 1.2rem;
+  background-color: rgb(247, 232, 231);
+  box-shadow: 2px 1px #FC766AFF ;
 }
 
+.smurfName{
+  background-color: rgb(247, 232, 231);
+}
 .smurfForm {
   background-color: rgb(247, 232, 231);
   margin: 2rem 2rem;
@@ -93,10 +97,11 @@ input{
   text-align: left;
   }
 
-  h5{
+  h3,h4,h5{
     font-size: 1.6rem;
     font-style: italic;
-    color:snow;
+    color:#1860C3;
+    text-shadow: 1px 2px snow;
   }
   .smurfProfile{
     display:flex;
@@ -114,4 +119,8 @@ input{
     box-shadow: 4px 2px #FC766AFF ;
   }
   
+  button{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
   

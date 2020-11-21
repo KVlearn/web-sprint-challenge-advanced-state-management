@@ -12,7 +12,7 @@ const handleClick=()=>{
 return(
     <div>
         <h3>Let's add more Smurfs!</h3>
-        <Button onClick={handleClick}>Lets Go!</Button>
+        <Button color="primary" onClick={handleClick}>Lets Go!</Button>
 
     </div>  
 )
