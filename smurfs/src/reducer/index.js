@@ -24,7 +24,7 @@ export const reducer=(state=initialState,action)=>{
                 ...state,
                 isLoading:false,
                 error:'',
-                smurfs: [...state.smurfs,...action.payload]
+                smurfs: action.payload,
             }
         case FETCH_SMURFS_FAILURE:
             return{
